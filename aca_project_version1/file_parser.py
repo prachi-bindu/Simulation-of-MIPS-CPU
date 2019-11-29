@@ -62,7 +62,7 @@ def file_parser():
             line_arr_file4 = fp.readline()
             list4 = list(line_arr_file4.strip())
             l4.append(list4)
-            print(list4)
+            # print(list4)
 # Defining an integer variable that keeps the count of number of cycles
 cycle = 0
 file_parser()
